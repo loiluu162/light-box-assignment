@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+}
+
+@font-face {
+  font-family: 'UTM Duepuntozero';
+  font-style: normal;
+  font-weight: normal;
+  src: local('UTM Duepuntozero'),
+    url('../fonts/UTM_Duepuntozero.woff') format('woff');
+}
+/*
+#3B2C25 #251B17 #30241F #EEEBE9 #F7F5F4 #EBE7E4
+*/
+:root {
+  --text: #745459;
+  --dark-brown: #251b17;
+  --medium-brown: #3b2c25;
+  --white: #e1dedb;
+  --light-brown: #5e463c;
+  --color-1: #251b17;
+  --color-2: #30241f;
+  --color-2: #eeebe9;
+  --main-color: #f7f5f4;
+}
+#container {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+#primaryContent ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 25px 0;
+}
+#primaryContent h2 {
+  padding: 40px 0 20px 0;
+  margin: 0;
+  font-size: 41px;
+  line-height: 34px;
+  color: #2f231e;
+  font-family: 'UTM Duepuntozero';
+  border-bottom: 1px solid #cec5c0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  background-color: var(--main-color);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 36px 100px 347px;
+  overflow: hidden;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  /* display: flex;
+  flex-direction: row; */
+}
+#main #primaryContent {
+  float: left;
+  width: 334px;
+  margin: 0;
+}
+
+#main div#secondaryContent {
+  margin-top: 30px;
+  float: right;
+  width: 249px;
+  position: relative;
+}
+
+.whatWeDo__title {
+  font-size: 30px;
+  line-height: 34px;
+  color: #745459;
+  font-family: 'UTM Duepuntozero';
+  margin: 0;
+}
+.whatWeDo__content {
+  font-size: 13px;
+  line-height: 20px;
+  color: #645a56;
+  font-family: 'Arial';
+}
+
+#first {
+  background-image: url('../../images/icons/webdev.png');
+  background-repeat: no-repeat;
+  padding-left: 45px; /* width of the image plus a little extra padding */
+  display: block; /* may not need this, but I've found I do */
+}
+#second {
+  background-image: url('../../images/icons/graphics.png');
+  background-repeat: no-repeat;
+  padding-left: 45px; /* width of the image plus a little extra padding */
+  display: block; /* may not need this, but I've found I do */
+}
+#third {
+  background-image: url('../../images/icons/ud.png');
+  background-repeat: no-repeat;
+  padding-left: 45px; /* width of the image plus a little extra padding */
+  display: block; /* may not need this, but I've found I do */
+}
+
+blockquote {
+  margin: 0;
+  background: #e6e2df;
+  color: #7f6357;
+  padding: 23px;
+  font: italic 20px/27px georgia;
+}
+blockquote p {
+  font-size: 20px;
+  margin-bottom: 1em;
+  color: #7f6357;
+  font-family: georgia;
+}
+#secondaryContent cite {
+  font: bold normal 15px arial;
+  color: #2f231e;
+  float: right;
+  padding-right: 20px;
+  padding-top: 35px;
+  font-weight: bold;
+}
+#secondaryContent cite span {
+  font-size: 10px;
+  line-height: 10px;
+  display: block;
+  color: #89451f;
+}
+
+#recentWork {
+  clear: both;
+  position: relative;
+  border-top: 1px solid #cec5c0;
+}
+#recentWork h2 {
+  border: none;
+  margin: 0;
+  padding: 25px;
+  font-family: 'UTM Duepuntozero';
+  font-size: 41px;
+  line-height: 34px;
+  color: #2f231e;
+}
+#recentWork ol {
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+#recentWork p {
+  text-align: right;
+  font-size: 13px;
+  font-style: italic;
+  color: #4e4d4d;
+  margin-top: 10px;
+}
+
+#recentWork ol {
+  top: 0;
+}
+#recentWork ol li {
+  width: 16px;
+  height: 16px;
+  display: inline;
+}
+#recentWork ol li a {
+  color: white;
+  background: #6c535a;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 11px;
+  font-family: 'Helvetica';
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 13px;
+}
+#recentWork ol li.chosen a,
+#recentWork ol li a:hover {
+  background: #a37a7e;
+}
+#recentWork ol li a:hover {
+  text-decoration: none;
+}
+
+div.image_display {
+  padding: 11px;
+  border: 1px solid #d6cec9;
+  background: white;
+}
+.image_display img {
+  border: 1px solid #d6cec9;
+}

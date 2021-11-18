@@ -1,0 +1,83 @@
+#header {
+  border-left: 1px solid var(--light-brown);
+  border-right: 1px solid var(--light-brown);
+  background: var(--light-brown);
+  margin: 0;
+}
+
+.navContainer {
+  background: var(--dark-brown);
+  border-bottom: 1px solid #a68a7d;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 50px;
+}
+#nav {
+  /* flex-shrink: 0; */
+  transform: translateX(250px);
+  width: 500px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  /* height: 100%; */
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+  color: var(--white);
+  justify-content: space-evenly;
+  align-items: center;
+}
+#nav li {
+  font-size: 11px;
+  font-family: arial;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 27px;
+}
+#nav li a {
+  color: #c7b18d;
+}
+
+#slogan img {
+  position: absolute;
+  top: -45px;
+  left: 18%;
+}
+#slogan p {
+  margin: -27px 200px 0 319px;
+  padding: 5px 0 5px 27px;
+  font-size: 17px;
+  color: #a68a7d;
+  border-left: 1px solid #4f3b33;
+  line-height: 25px;
+  font-family: 'Helvetica';
+}
+#slogan a {
+  color: white;
+}
+#slogan {
+  height: 168px; /* Not typically a good idea to set
+      heights. In this case, it’s necessary. */
+  clear: both;
+  background: var(--medium-brown);
+  margin: auto;
+  max-width: 1000px;
+  border-left: 1px solid #a68a7d;
+  border-right: 1px solid #a68a7d;
+}
+#slogan h1 {
+  background: url('../../images/logo.png') no-repeat;
+  background-size: contain;
+  width: 124px;
+  height: 67px;
+  margin: 0 0 0 165px;
+  position: relative;
+  text-indent: -9999px;
+  top: 50px;
+  z-index: 10;
+}
