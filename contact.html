@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <div class="nav--container">
+          <ul id="nav">
+            <li>
+              <span><img src="./images/icons/home.png" /></span>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <span><img src="./images/icons/work.png" /></span>
+              <a href="work.html">Work</a>
+            </li>
+            <li>
+              <span><img src="./images/icons/about.png" /></span>
+              <a href="about.html"> About</a>
+            </li>
+            <li class="nav-selected">
+              <span><img src="./images/icons/contact.png" /></span>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div id="slogan">
+          <div id="slogan__logo">
+            <h1 id="slogan__title"><a href="index.html">Light Box</a></h1>
+            <img id="slogan__image" src="images/boxx.png" alt="Light Box" />
+            <p id="slogan__content"></p>
+          </div>
+        </div>
+        <!-- end slogan-->
+      </div>
+      <!-- end header-->
+      <div id="main">
+        <div id="main__primary-content">
+          <h2 id="main__primary-content__contactUs">Contact Us</h2>
+          <p>
+            Reach us by completing the form below to send an email message, or
+            use any of these details:
+          </p>
+          <ul id="main__primary-content__info">
+            <li><strong>Phone: </strong> <span>+555 555 9555</span></li>
+            <li><strong>Fax: </strong> <span>+555 555 9555</span></li>
+            <li><strong>Skype: </strong> <span>Lightbox</span></li>
+            <li><strong>Twitter: </strong> <span>@lightbox</span></li>
+          </ul>
+          <form action="contact.html" method="get" accept-charset="utf-8">
+            <label for="name">Name: </label>
+            <input type="text" name="name" value="" id="name" />
+            <label for="email">Email: </label>
+            <input type="text" name="email" value="" id="email" />
+            <label for="phone">Phone: </label>
+            <input type="text" name="phone" value="" id="phone" />
+            <label for="message">Message: </label>
+            <textarea
+              name="message"
+              id="message"
+              rows="216"
+              cols="452"
+            ></textarea>
+            <input type="submit" name="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+      <!-- end main-->
+    </div>
+    <!--end container-->
+    <div id="footer--wrapper">
+      <!-- needed to extend the brown
+      background for the entire screen -->
+      <div id="footer">
+        <div id="footer__logo">
+          <a href=""
+            ><img
+              id="footer__logo__image"
+              src="./images/footer-logo.png"
+              alt="Light Box"
+            />
+          </a>
+        </div>
+        <div id="footer__content--wrapper">
+          <div id="footer__content">
+            Font via
+            <strong
+              ><a href="http://www.dafont.com/duepuntozero.font"
+                >dafont (Duepuntozero)</a
+              >
+            </strong>
+            <br />
+            ICONS by
+            <strong
+              ><a href="http://iconeden.com/icon/bright-free-stock-iconset.html"
+                >iconeden</a
+              ></strong
+            >
+          </div>
+          <p id="footer__info">
+            copy right &copy; 2009
+            <a href="http://rockablepress.com/">rockablepress</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

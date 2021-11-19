@@ -1,150 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Page</title>
-  <link rel="stylesheet" href="styles/home/style.css" />
-  <link rel="stylesheet" href="styles/home/header.css" />
-  <link rel="stylesheet" href="styles/home/footer.css" />
-</head>
-
-<body>
-  <div id="container">
-    <div id="header">
-      <div class="navContainer">
-        <ul id="nav">
-          <li id="li_home" class="selected">
-            <span><img src="./images/icons/home.png" /></span>
-            <a href="index.html">Home</a>
-          </li>
-          <li id="li_work">
-            <span><img src="./images/icons/work.png" /></span>
-            <a href="work.html">Work</a>
-          </li>
-          <li id="li_about">
-            <a href="about.html">
+  <body>
+    <div id="container">
+      <div id="header">
+        <div class="nav--container">
+          <ul id="nav">
+            <li class="nav-selected">
+              <span><img src="./images/icons/home.png" /></span>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <span><img src="./images/icons/work.png" /></span>
+              <a href="work.html">Work</a>
+            </li>
+            <li>
               <span><img src="./images/icons/about.png" /></span>
-              About</a>
-          </li>
-          <li id="li_contact">
-            <span><img src="./images/icons/contact.png" /></span>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div id="slogan">
-        <h1><a href="index.html">Light Box</a></h1>
-        <img src="images/boxx.png" alt="Light Box" />
-        <p>
-          Hi, we’re LightBox, a completely made up design agency that
-          specializes in fresh, clean web design and graphics.
-          <a href="about.html">Find out more. </a>
-        </p>
-      </div>
-      <!-- end slogan-->
-    </div>
-    <!-- end header-->
-    <div id="main">
-      <div id="primaryContent">
-        <h2 id="whatWeDo">What We Do</h2>
-        <ul>
-          <li id="first">
-            <h3 class="whatWeDo__title">Web Development</h3>
-            <p class="whatWeDo__content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              dolore nobis, suscipit recusandae asperiores ducimus dicta
-              voluptates voluptate id quisquam eveniet ipsa eius facilis
-              adipisci modi officia fuga, exercitationem error.
-            </p>
-          </li>
-          <li id="second">
-            <h3 class="whatWeDo__title">Graphics</h3>
-            <p class="whatWeDo__content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              dolore nobis, suscipit recusandae asperiores ducimus dicta
-              voluptates voluptate id quisquam eveniet ipsa eius facilis
-              adipisci modi officia fuga, exercitationem error.
-            </p>
-          </li>
-          <li id="third">
-            <h3 class="whatWeDo__title">Usability Design</h3>
-            <p class="whatWeDo__content">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Voluptatum maxime, dolore, sunt excepturi, cumque quasi eius
-              ipsa fugit dolor quaerat quibusdam commodi distinctio ad quo!
-              Qui aliquid vero minus cum.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <!-- end primaryContent-->
-      <div id="secondaryContent">
-        <blockquote>
-          <p>
-            Lightbox did an amazing job with our website. From start to finish
-            they were professional, fast and totally fictitious.
-          </p>
-          <p>
-            It was amazing how a company that doesn’t even exist could put
-            together such an amazing site for us. Thank you Lightbox!
-          </p>
-        </blockquote>
-        <cite title="MadeUpPeople.com">John Rushmore <span>MADEUPPEOPLE.COM</span></cite>
-        <div class="arrow"></div>
-      </div>
-      <!-- end secondaryContent-->
-      <div id="recentWork">
-        <h2>Recent Work</h2>
-        <ol>
-          <li class="chosen">
-            <a href="images/recentWork/recentWork1.jpg" title="A design layout I created for
-                            Psdtuts+">1</a>
-          </li>
-          <li>
-            <a href="images/recentWork/recentWork2.jpg" title="A pastel layout I created for Psdtuts+">2</a>
-          </li>
-          <li>
-            <a href="images/recentWork/recentWork3.jpg" title="A grass layout I created for Psdtuts+">3</a>
-          </li>
-          <li>
-            <a href="images/recentWork/recentWork4.jpg" title="A dark layout I created for Psdtuts+">4</a>
-          </li>
-        </ol>
-        <div class="image_display">
-          <img src="images/recent-work.png" alt="Recent Work" />
+              <a href="about.html"> About</a>
+            </li>
+            <li>
+              <span><img src="./images/icons/contact.png" /></span>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <p>
-          <strong>Web Design Week Layout:</strong> A design layout I created
-          for Psdtuts+
-        </p>
+        <div id="slogan">
+          <div id="slogan__logo">
+            <h1 id="slogan__title"><a href="index.html">Light Box</a></h1>
+            <img id="slogan__image" src="images/boxx.png" alt="Light Box" />
+          </div>
+          <p id="slogan__content">
+            Hi, we’re LightBox, a completely made up design agency that
+            specializes in fresh, clean web design and graphics.
+            <a href="about.html">Find out more. </a>
+          </p>
+        </div>
+        <!-- end slogan-->
       </div>
-      <!-- end recent work-->
+      <!-- end header-->
+      <div id="main">
+        <div id="main__primary-content">
+          <h2 id="main__primary-content__whatWeDo">What We Do</h2>
+          <ul id="#main__primary-content__portfolios">
+            <li id="first">
+              <h3 class="whatWeDo__title">Web Development</h3>
+              <p class="whatWeDo__content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                dolore nobis, suscipit recusandae asperiores ducimus dicta
+                voluptates voluptate id quisquam eveniet ipsa eius facilis
+                adipisci modi officia fuga, exercitationem error.
+              </p>
+            </li>
+            <li id="second">
+              <h3 class="whatWeDo__title">Graphics</h3>
+              <p class="whatWeDo__content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                dolore nobis, suscipit recusandae asperiores ducimus dicta
+                voluptates voluptate id quisquam eveniet ipsa eius facilis
+                adipisci modi officia fuga, exercitationem error.
+              </p>
+            </li>
+            <li id="third">
+              <h3 class="whatWeDo__title">Usability Design</h3>
+              <p class="whatWeDo__content">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptatum maxime, dolore, sunt excepturi, cumque quasi eius
+                ipsa fugit dolor quaerat quibusdam commodi distinctio ad quo!
+                Qui aliquid vero minus cum.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <!-- end primaryContent-->
+        <div id="main__secondary-content">
+          <blockquote>
+            <p>
+              Lightbox did an amazing job with our website. From start to finish
+              they were professional, fast and totally fictitious.
+            </p>
+            <p>
+              It was amazing how a company that doesn’t even exist could put
+              together such an amazing site for us. Thank you Lightbox!
+            </p>
+          </blockquote>
+          <cite id="main__secondary-content__author" title="MadeUpPeople.com"
+            >John Rushmore <span>MADEUPPEOPLE.COM</span></cite
+          >
+          <div id="main__secondary-content__arrow"></div>
+        </div>
+        <!-- end secondaryContent-->
+        <div id="main__recent-work">
+          <h2 id="main__recent-work__title">Recent Work</h2>
+          <ol>
+            <li class="chosen">
+              <a
+                href="images/recentWork/recentWork1.jpg"
+                title="A design layout I created for
+                            Psdtuts+"
+                >1</a
+              >
+            </li>
+            <li>
+              <a
+                href="images/recentWork/recentWork2.jpg"
+                title="A pastel layout I created for Psdtuts+"
+                >2</a
+              >
+            </li>
+            <li>
+              <a
+                href="images/recentWork/recentWork3.jpg"
+                title="A grass layout I created for Psdtuts+"
+                >3</a
+              >
+            </li>
+            <li>
+              <a
+                href="images/recentWork/recentWork4.jpg"
+                title="A dark layout I created for Psdtuts+"
+                >4</a
+              >
+            </li>
+          </ol>
+          <div class="main__recent-work__image-wrapper">
+            <img
+              id="main__recent-work__image"
+              src="images/recent-work.png"
+              alt="Recent Work"
+            />
+          </div>
+          <p id="main__recent-work__description">
+            <strong>Web Design Week Layout:</strong> A design layout I created
+            for Psdtuts+
+          </p>
+        </div>
+        <!-- end recent work-->
+      </div>
+      <!-- end main-->
     </div>
-    <!-- end main-->
-  </div>
-  <!--end container-->
-  <div id="footerWrap">
-    <!-- needed to extend the brown
+    <!--end container-->
+    <div id="footer--wrapper">
+      <!-- needed to extend the brown
       background for the entire screen -->
-    <div id="footer">
-      <div id="footerLogo">
-        <a href=""><img src="./images/footer-logo.png" alt="Light Box" />
-        </a>
-      </div>
-      <div id="footer__content--wrapper">
-        <div id="footer__content">
-          Font via <strong><a href="http://www.dafont.com/duepuntozero.font">dafont (Duepuntozero)</a>
-          </strong>
-              <br />
-              ICONS by <strong><a href="http://iconeden.com/icon/bright-free-stock-iconset.html">iconeden</a></strong>
+      <div id="footer">
+        <div id="footer__logo">
+          <a href=""
+            ><img
+              id="footer__logo__image"
+              src="./images/footer-logo.png"
+              alt="Light Box"
+            />
+          </a>
         </div>
-            <p id="footerInfo">copy right &copy; 2009 <a href="http://rockablepress.com/">rockablepress</a></p>
+        <div id="footer__content--wrapper">
+          <div id="footer__content">
+            Font via
+            <strong
+              ><a href="http://www.dafont.com/duepuntozero.font"
+                >dafont (Duepuntozero)</a
+              >
+            </strong>
+            <br />
+            ICONS by
+            <strong
+              ><a href="http://iconeden.com/icon/bright-free-stock-iconset.html"
+                >iconeden</a
+              ></strong
+            >
+          </div>
+          <p id="footer__info">
+            copy right &copy; 2009
+            <a href="http://rockablepress.com/">rockablepress</a>
+          </p>
+        </div>
       </div>
-    </div><!-- end footer -->
-  </div>
-</body>
-
+    </div>
+  </body>
 </html>

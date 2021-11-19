@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+}
+
+@font-face {
+  font-family: 'UTM Duepuntozero';
+  font-style: normal;
+  font-weight: normal;
+  src: local('UTM Duepuntozero'),
+    url('./fonts/UTM_Duepuntozero.woff') format('woff');
+}
+:root {
+  --text: #745459;
+  --dark-brown: #251b17;
+  --medium-brown: #3b2c25;
+  --white: #e1dedb;
+  --light-brown: #5e463c;
+  --color-1: #251b17;
+  --color-2: #30241f;
+  --color-2: #eeebe9;
+  --main-color: #f7f5f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#container {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}

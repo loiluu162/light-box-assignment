@@ -1,0 +1,128 @@
+#slogan__logo {
+  position: absolute;
+  top: -25px;
+  z-index: 11111;
+}
+
+#slogan__image {
+  top: -200px !important;
+}
+
+#slogan {
+  height: 85px !important;
+}
+
+form {
+  width: 464px;
+  padding: 0;
+  margin: 0;
+}
+input[type='text'],
+textarea {
+  width: 452px;
+  height: 27px;
+  border: 1px solid #cec5bf;
+  margin-bottom: 27px;
+  color: #645a56;
+  font-size: 17px;
+  padding: 7px 0 0 10px;
+  font-family: helvetica, arial;
+}
+input[type='text']:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  background: #eeecec;
+  outline: none;
+}
+#container textarea {
+  height: 212px;
+}
+form label {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 20px;
+  color: #645a56;
+  font-family: 'Arial';
+}
+
+input[type='submit'] {
+  border: 1px solid #aba199;
+  text-align: center;
+  color: #30241f;
+  font-size: 11px;
+  width: 100px;
+  padding: 12px;
+  text-transform: uppercase;
+  float: right;
+  margin: 0;
+  margin-top: -12px;
+  margin-right: 12px;
+  background: #d5ceca url(../images/submit-bg.jpg) repeat-x;
+  cursor: pointer;
+}
+input[type='submit']:hover {
+  background: #c8c0bd url(../images/submit-bg.png) repeat-x -100px 0;
+}
+
+#main {
+  background-color: var(--main-color);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 36px 100px 347px;
+  overflow: hidden;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+#main__primary-content {
+  float: left;
+  width: 620px;
+  margin: 0;
+  padding: 0;
+}
+#main__primary-content p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #645a56;
+  font-family: 'Arial';
+}
+#main__primary-content__info {
+  columns: 2;
+  width: 613px;
+  height: 50px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #645a56;
+  font-family: 'Arial';
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+#main__primary-content__info li strong {
+  min-width: 75px;
+  display: inline-block;
+}
+#main__primary-content__contactUs {
+  width: 100%;
+  padding: 40px 0 20px 0;
+  margin: 0;
+  font-size: 41px;
+  line-height: 34px;
+  color: #2f231e;
+  font-family: 'UTM Duepuntozero';
+  border-bottom: 1px solid #cec5c0;
+}
+
+#footer--wrapper {
+  height: 130px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  /* #slogan__image {
+    display: none;
+  } */
+  #slogan__logo {
+    display: none;
+  }
+}
