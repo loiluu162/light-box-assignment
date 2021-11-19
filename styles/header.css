@@ -54,8 +54,7 @@
 #slogan {
   display: flex;
   flex-direction: row;
-  height: 168px; /* Not typically a good idea to set
-      heights. In this case, it’s necessary. */
+  height: 168px;
   clear: both;
   background: var(--medium-brown);
   margin: auto;
@@ -135,7 +134,7 @@
     margin: auto;
   }
   form {
-    width: 350px;
+    width: 300px;
   }
   input[type='text'],
   textarea {
@@ -143,7 +142,7 @@
   }
   #main__primary-content__info {
     columns: initial;
-    width: 350px;
+    width: 100%;
     height: 40px;
     font-size: 12px;
     line-height: 16px;
