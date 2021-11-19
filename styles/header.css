@@ -36,8 +36,8 @@
 
 #slogan__image {
   position: relative;
-  top: -165px;
-  left: 18%;
+  top: -180px;
+  left: 10%;
 }
 #slogan__content {
   margin: 60px 180px 30px 30px;
@@ -101,17 +101,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #slogan__image {
-    display: none;
-  }
-
   #nav li {
     width: 55px;
     height: 50px;
   }
-  .nav-selected {
+  /* .nav-selected {
     background-size: cover;
-  }
+  } */
   #slogan {
     flex-direction: column;
     height: fit-content;
@@ -119,13 +115,17 @@
   #slogan__logo {
     width: 100%;
   }
+  #slogan__image {
+    display: none;
+  }
   #slogan__title {
     margin: 0 auto;
   }
   #slogan__content {
-    margin: 0 5px;
+    margin: 30px 50px;
     border-left: none;
-    margin-top: 50px;
+    margin-top: 70px;
+    padding: 5px 0px;
   }
   #nav {
     transform: none;
@@ -138,20 +138,11 @@
   #main__recent-work__description {
     text-align: center;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  #slogan__image {
-    left: 8%;
-  }
-}
-@media only screen and (max-width: 600px) {
   #main {
     margin: auto;
   }
   form {
-    width: 300px;
+    width: 350px;
   }
   input[type='text'],
   textarea {
@@ -159,7 +150,7 @@
   }
   #main__primary-content__info {
     columns: initial;
-    width: 300px;
+    width: 350px;
     height: 40px;
     font-size: 12px;
     line-height: 16px;
@@ -172,9 +163,6 @@
     left: 4%;
   }
 
-  #footer__content--wrapper {
-    padding: 0 10px !important;
-  }
   #main__primary-content__whatWeDo {
     font-size: 30px;
   }
@@ -187,16 +175,12 @@
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
   #slogan__image {
     left: 10%;
   }
-  #nav {
-    transform: none;
-    width: 70%;
-    margin-left: 20%;
-    margin-right: 10%;
+  #main__recent-work__description {
+    text-align: center;
   }
 }
 
@@ -204,16 +188,12 @@
   #slogan__image {
     left: 13%;
   }
-  #nav {
-    transform: translateX(35%);
-    width: 500px;
-  }
-  #main {
-    padding-left: 250px;
-    margin-top: 10px;
+
+  #main__recent-work__description {
+    text-align: center;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
   #slogan__image {
     left: 15%;
   }
@@ -224,5 +204,11 @@
   #main {
     padding-left: 140px;
     margin-top: 10px;
+  }
+  #main__recent-work__description {
+    text-align: center;
+  }
+  #slogan__content {
+    margin-right: 50px;
   }
 }

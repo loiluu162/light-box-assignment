@@ -119,10 +119,16 @@ input[type='submit']:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  /* #slogan__image {
+  #slogan__image {
     display: none;
-  } */
-  #slogan__logo {
-    display: none;
+  }
+  #footer__content--wrapper {
+    padding: 0 30px !important;
+  }
+  #slogan {
+    height: 135px !important;
+  }
+  #slogan__title {
+    top: 100px !important;
   }
 }
