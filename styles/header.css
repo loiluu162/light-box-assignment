@@ -72,7 +72,7 @@
 
 #slogan__title {
   flex: 1;
-  background: url('/images/logo.png') no-repeat;
+  background: url('../images/logo.png') no-repeat;
   background-size: contain;
   width: 124px;
   height: 67px;
@@ -83,7 +83,7 @@
   z-index: 10;
 }
 .nav-selected {
-  background: url('/images/light-effect.png') no-repeat center center;
+  background: url('../images/light-effect.png') no-repeat center center;
   background-size: cover;
 }
 #nav li {
