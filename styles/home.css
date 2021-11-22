@@ -52,19 +52,19 @@
 }
 
 #first {
-  background-image: url('../../images/icons/webdev.png');
+  background-image: url('../images/icons/webdev.png');
   background-repeat: no-repeat;
   padding-left: 45px; /* width of the image plus a little extra padding */
   display: block; /* may not need this, but I've found I do */
 }
 #second {
-  background-image: url('../../images/icons/graphics.png');
+  background-image: url('../images/icons/graphics.png');
   background-repeat: no-repeat;
   padding-left: 45px; /* width of the image plus a little extra padding */
   display: block; /* may not need this, but I've found I do */
 }
 #third {
-  background-image: url('../../images/icons/ud.png');
+  background-image: url('../images/icons/ud.png');
   background-repeat: no-repeat;
   padding-left: 45px; /* width of the image plus a little extra padding */
   display: block; /* may not need this, but I've found I do */
@@ -193,4 +193,3 @@ blockquote p {
     padding: 5px 10px;
   }
 }
-
